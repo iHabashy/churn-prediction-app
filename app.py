@@ -9,7 +9,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load("D:\iTi\Data_Mining\churn_classification.pkl")
+model = joblib.load("churn_classification.pkl")
 
 st.title("Customer Churn Prediction")
 st.sidebar.header("Customer Parameters")
